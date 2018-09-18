@@ -1,0 +1,168 @@
+.gallery-main {
+    width: 90%;
+    margin: 50px 4% 35px 4%;
+    background-color: #fbfaf8;
+    padding-bottom: 35px;
+}
+
+.gallery {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 37px;
+    transition-delay: 0.3s;
+}
+
+.description {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 441px;
+    text-align: center;
+}    
+
+.description1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 385px;
+    text-align: center;
+}    
+
+.item1 {
+    background-image: url('../images/gallery/gal-image1.jpg');
+    width: 400px;
+    height: 348px;
+}
+
+.item1:hover {
+    background-image: url('../images/gallery/gal-image2.jpg');
+}
+
+.item2 {
+    background-image: url('../images/gallery/gal-image3.jpg');
+    width: 400px;
+    height: 348px;
+}
+
+.item2:hover {
+    background-image: url('../images/gallery/gal-image3a.jpg');
+}
+
+.item3 {
+    background-image: url('../images/gallery/gal-image4.jpg');
+    width: 400px;
+    height: 348px;
+}
+
+.item3:hover {
+    background-image: url('../images/gallery/gal-image4a.jpg');
+}
+
+.item4 {
+    background-image: url('../images/gallery/gal-image555.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item4:hover {
+    background-image: url('../images/gallery/gal-image5a.jpg');
+}
+
+.item5 {
+    background-image: url('../images/gallery/gal-image6.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item5:hover {
+    background-image: url('../images/gallery/gal-image6a.jpg');
+}
+
+.item6 {
+    background-image: url('../images/gallery/gal-image7.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item6:hover {
+    background-image: url('../images/gallery/gal-image7a.jpg');
+}
+
+.item7 {
+    background-image: url('../images/gallery/gal-image8.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item7:hover {
+    background-image: url('../images/gallery/gal-image8a.jpg');
+}
+
+.item8 {
+    background-image: url('../images/gallery/gal-image9.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item8:hover {
+    background-image: url('../images/gallery/gal-image9a.jpg');
+}
+
+.item9 {
+    background-image: url('../images/gallery/gal-image10.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item9:hover {
+    background-image: url('../images/gallery/gal-image10a.jpg');
+}
+
+.item10 {
+    background-image: url('../images/gallery/gal-image11.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item10:hover {
+    background-image: url('../images/gallery/gal-image11a.jpg');
+}
+
+.item11 {
+    background-image: url('../images/gallery/gal-image12.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item11:hover {
+    background-image: url('../images/gallery/gal-image12a.jpg');
+}
+
+.item12 {
+    background-image: url('../images/gallery/gal-image13.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item12:hover {
+    background-image: url('../images/gallery/gal-image13a.jpg');
+}
+
+.item13 {
+    background-image: url('../images/gallery/gal-image14.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item14 {
+    background-image: url('../images/gallery/gal-image15.jpg');
+    width: 400px;
+    height: 400px;
+}
+
+.item15 {
+    background-image: url('../images/gallery/gal-image16.jpg');
+    width: 400px;
+    height: 400px;
+}
