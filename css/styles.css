@@ -126,6 +126,29 @@ body {
     margin-top: 10px;
 }
 
+/******Contact***********/
+.map-header {
+    font-family: 'Quicksand', sans-serif;
+    color: #26355a;
+    font-size: 30px;
+}
+
+.map {
+   text-align: center; 
+   margin-top: 50px;
+}
+
+.contact-form {
+    width: 700px;
+    margin-top: 40px;
+    margin-left:26%;
+    border: 1px solid #E1E3DF;
+    border-radius:3px;
+    padding: 10px;
+    
+}
+
+
 /***********footer**************/
 .footer {
     height:120px;
