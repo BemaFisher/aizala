@@ -24,15 +24,14 @@ body {
     width: 50px;
 }
 
-a {
+.list-item a {
     text-decoration: none;
     color: black;
 } 
  
- .list-item:hover, .list-item:active {
+.list-item:hover  {
     font-size: 130%;
 }
- 
 
 .logo {
     margin-left: 4%;
@@ -41,6 +40,43 @@ a {
     width:230px;
 }
 
+.side-nav{
+    background-color: #26355a ;
+    color: #979ca7;
+    height: 170px;
+    width: 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 200px;
+}
+
+.side-nav:hover{
+    width: 100px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-list2{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-item:hover{
+    background-color: #979ca7;
+    cursor: pointer;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+} 
+ 
 .banner {
     background-image: url('../images/banner3.jpg');
     background-size: cover;
@@ -169,17 +205,58 @@ a {
 
 .aboutsection2 {
     width: 90%;
-    margin:5%;
-    height: 1500px;
+    margin:6%;
+    height: 800px;
+    position: relative;
 }
 
 .about-column {
-    height: 400px;
-    margin-top:50px;
-    border: 1px solid red/*#E1E3DF*/;
+    width: 32%;
+    height: 800px;
+    border: 1px solid #E1E3DF;
     border-radius:3px;
 }
 
+.column1 {
+    position: absolute;
+}
+
+.column2 {
+    position: absolute;
+    left: 33%;
+}
+
+.column3 {
+    position: absolute;
+    left: 66%;
+}
+
+.text {
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/********Privacy Policy***********/
+.privacypage {
+    width: 50%;
+    height: 715px;
+    margin: 7% 25%;
+    background-color: #fbfaf8;
+}
+
+.policy-header {
+    font-family: Verdana;
+    font-size: 15px;
+    text-align: center;
+}
+
+.policy {
+    font-family: Verdana;
+    font-size: 15px;
+    line-height: 1.6;
+}
 
 /***********footer**************/
 .footer {
@@ -236,9 +313,11 @@ a {
  
 .privacy {
     color: #979ca7;
-  
+    text-decoration: none;
 }
 
 .privacy:hover {
     color: #070226;
+    
+   
 }
