@@ -49,7 +49,6 @@ a {
     width: 95%;
     margin-left: 2%;
     opacity: 0.92;
-   
 }
 
 .banner-text {
@@ -150,8 +149,36 @@ a {
     
 }
 
-/********Gallery Page******/
+/********About Page******/
+.aboutsection1{
+    width: 90%;
+    margin:5%;
+    height: 200px;
+    background-color: #fbfaf8;
+    position: relative;
+}
 
+.about-header{
+    font-family: 'Great Vibes', cursive;
+    font-size: 95px;
+    color: #26355a;
+    position: absolute;
+    bottom: -18%;
+    left: 2%;
+}
+
+.aboutsection2 {
+    width: 90%;
+    margin:5%;
+    height: 1500px;
+}
+
+.about-column {
+    height: 400px;
+    margin-top:50px;
+    border: 1px solid red/*#E1E3DF*/;
+    border-radius:3px;
+}
 
 
 /***********footer**************/
@@ -171,9 +198,9 @@ a {
 }
     
 .email {
-    height: 27px;
+    height: 28px;
     padding-left: 30px;
-  
+    border-radius: 2px;
 }
 
 .input {
@@ -183,8 +210,9 @@ a {
 }
 
 .button  {
-    height: 32px;
+    height: 35px;
     width: 65px;
+    border-radius: 2px;
     background-color:#5bad5f;
     font-family:'Open Sans', sans-serif;
 }
@@ -212,5 +240,5 @@ a {
 }
 
 .privacy:hover {
-    color: #a80303;
+    color: #070226;
 }
