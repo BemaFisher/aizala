@@ -313,11 +313,9 @@ body {
  
 .privacy {
     color: #979ca7;
-    text-decoration: none;
 }
+
 
 .privacy:hover {
     color: #070226;
-    
-   
 }
